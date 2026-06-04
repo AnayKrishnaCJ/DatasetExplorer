@@ -1,0 +1,16 @@
+# Ignore all files and directories in the home folder by default
+*
+
+# Allow tracking the gitignore file itself
+!.gitignore
+
+# Allow tracking the DatasetExplorer directory and its contents
+!DatasetExplorer/
+!DatasetExplorer/**
+
+# Ignore common build outputs within DatasetExplorer
+DatasetExplorer/backend/.venv/
+DatasetExplorer/backend/__pycache__/
+DatasetExplorer/backend/*.db
+DatasetExplorer/frontend/node_modules/
+DatasetExplorer/frontend/dist/
